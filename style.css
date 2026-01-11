@@ -13,8 +13,11 @@ nav .logo{
 }
 
 header{
-  background-color: #ffffff;
+  background-color:white; 
+  background-repeat: no-repeat;
+  max-width: 1600px;
   padding-top: 16px;
+  vertical-align: middle;
 }
 nav{
   max-width: 1600px;
@@ -23,7 +26,7 @@ nav{
 }
 nav .space{
   display: flex;
-  justify-content:center;
+
   align-items: center;
   list-style-type: none;
   gap: 50px;
@@ -40,3 +43,64 @@ nav .space{
   color: white;
   margin-right: 120px;
 }
+#banner{
+   background: url(image/assets/hero-bg.png),#e67575;
+   background-attachment: fixed;
+  
+  max-width: 1600px;
+  margin-top: 40px;
+  height: 675px;
+  text-align: center;
+}
+
+.top-button{
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  width: 230px;
+  height: 35px;
+  font-size: 16px;
+  color: #469165;
+  margin-top: 155px;
+}
+
+.banner-content h1{
+  color: white;
+  font-size: 72px;
+  line-height: 84px;
+}
+.banner-content p{
+  font-size: 18px;
+  color: white;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.bottom .btn1{
+  background-color: #469165;
+  border: none;
+  padding: 8px 40px 16.5px 16px;
+  width: 265px;
+  height: 52px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  margin-right: 120px;
+  
+
+}
+.bottom button{
+  background: transparent;
+  border-color: white;
+  border-radius: 5px;
+  width: 195;
+  height: 52px;
+  padding: 16px 16px 16px 54px;
+  color: white;
+  font-size: 16px;
+
+
+}
+
+
